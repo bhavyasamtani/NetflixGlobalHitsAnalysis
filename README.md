@@ -19,7 +19,7 @@ Through this data analysis, I found that:
 * **English-Language is Key:** English-language productions make up the vast majority (over 84%) of global hits.
 * **Longer is Better:** The TV shows that become global hits tend to have a longer average runtime than other content on the platform.
 
-  ## Approach
+## Approach
   
 1. Data Collection- Collected weekly Top 10 viewership data from Netflix’s official source.
 2. Data Cleaning- Processed and cleaned the dataset using Python (Pandas) for missing values, duplicates, and formatting.
