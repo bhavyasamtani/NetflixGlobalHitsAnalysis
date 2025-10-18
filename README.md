@@ -1,92 +1,40 @@
-🎬 Netflix Global Hits Analysis
+# Netflix-Global-Hits-Analysis
+An analysis of Netflix's global Top 10 data. This project explores viewership trends and visualizes key success factors, revealing that longer, English-language TV series dominate the platform.
 
-This project analyzes Netflix’s global Top 10 dataset to understand what drives the success of the most popular TV shows and movies worldwide.
-Through data cleaning, exploratory analysis, and interactive visualization, the study identifies key success factors such as content type, language, duration, and audience trends.
 
-🧭 Objective
+This is a data analysis project aimed at discovering the key factors behind the most successful TV shows on Netflix. The goal was to analyze real-world viewership data to find clear, data-driven insights.
 
-The main goal of this project is to uncover data-driven insights behind Netflix’s most-watched titles.
-By analyzing official Netflix Top 10 data, this analysis reveals what differentiates global hits from average performers and how language, genre, and runtime contribute to viewer engagement.
+## Final Dashboard
 
-💼 Problem Statement
+Below is a picture of the final interactive dashboard I created in Power BI to summarize the project's findings.
 
-With thousands of titles released each year, streaming platforms face a constant challenge — understanding what keeps audiences watching.
-This project helps answer:
+Final Power BI Dashboard <img width="1292" height="730" alt="image" src="https://github.com/user-attachments/assets/9c59cf67-b749-490f-bdcf-988c040c574f" />
 
-What content type (TV shows or movies) dominates the global Top 10?
 
-Which languages and genres perform best across markets?
+## Key Findings
 
-Does episode length or overall runtime influence total watch hours?
+Through this data analysis, I found that:
 
-🧮 Approach
-Phase	Description
-1. Data Collection	Collected weekly Top 10 viewership data from Netflix’s official source
-.
-2. Data Cleaning	Processed and cleaned the dataset using Python (Pandas) for missing values, duplicates, and formatting.
-3. Exploratory Analysis (EDA)	Identified trends in viewership hours, category distribution, and regional performance.
-4. Visualization	Designed an interactive Power BI dashboard to summarize and communicate insights visually.
-5. Insights Generation	Derived recommendations and summarized patterns from analysis.
-⚙️ Tools & Technologies
+* **TV Shows Dominate:** The most popular content on the platform is overwhelmingly TV shows, not films.
+* **English-Language is Key:** English-language productions make up the vast majority (over 84%) of global hits.
+* **Longer is Better:** The TV shows that become global hits tend to have a longer average runtime than other content on the platform.
+
+  ## Approach
+  
+1. Data Collection- Collected weekly Top 10 viewership data from Netflix’s official source.
+2. Data Cleaning- Processed and cleaned the dataset using Python (Pandas) for missing values, duplicates, and formatting.
+3. Exploratory Analysis (EDA)- Identified trends in viewership hours, category distribution, and regional performance.
+4. Visualization- Designed an interactive Power BI dashboard to summarize and communicate insights visually.
+5. Insights Generation- Derived recommendations and summarized patterns from analysis.
+
+## Data Source
+
+The data for this project was sourced from Netflix's official weekly Top 10 lists. You can explore and download the data for yourself here:
+[Netflix Top 10](https://www.netflix.com/tudum/top10)
+
+## Tools & Technologies
 
 Python: Pandas, Matplotlib, NumPy
-
 Power BI: Interactive dashboards and visuals
-
 Excel: Data preprocessing and verification
-
 GitHub: Version control and project documentation
-
-🔍 Dataset Overview
-Column Name	Description
-Title	Name of the Netflix title
-Category	TV Show or Film
-Language	Primary spoken language
-Hours Viewed	Global hours viewed in millions
-Weeks in Top 10	Longevity and popularity measure
-Release Year	Year of release
-📈 Key Findings
-
-TV Shows Dominate: Over 70% of Netflix’s top titles are multi-season TV shows.
-
-English Leads the Way: English-language content accounts for roughly 84% of total viewership hours.
-
-Longer Duration Performs Better: Longer TV shows tend to sustain higher engagement and watch hours.
-
-Genre Trends: Drama, Action, and Thriller genres appear most frequently among top performers.
-
-Global Retention: Titles that remain in the Top 10 for multiple weeks experience exponential growth in visibility and audience retention.
-
-📊 Dashboard Preview
-
-Below is the interactive Power BI dashboard created to visualize insights:
-
-<img width="1292" height="730" alt="Netflix Dashboard" src="https://github.com/user-attachments/assets/9c59cf67-b749-490f-bdcf-988c040c574f" />
-📂 Repository Structure
-Netflix-Global-Hits-Analysis/
-│
-├── data/                     # Raw and cleaned datasets
-├── notebooks/                # Python notebooks for cleaning and EDA
-├── dashboard/                # Power BI (.pbix) file
-├── README.md                 # Project overview and description
-└── requirements.txt          # Python dependencies
-
-🧠 Learnings
-
-Built a complete workflow from data collection → EDA → dashboard storytelling.
-
-Improved Power BI visualization and data storytelling skills.
-
-Learned to interpret entertainment industry trends using descriptive analytics.
-
-Practiced documenting and publishing a clean, portfolio-ready analytics project.
-
-🚀 Future Enhancements
-
-Add genre-based recommendation modeling using collaborative filtering.
-
-Compare Netflix’s trends with Prime Video or Disney+ datasets.
-
-Incorporate audience sentiment analysis from social media or IMDb reviews.
-
-Automate updates via Python scripts pulling live weekly data.
