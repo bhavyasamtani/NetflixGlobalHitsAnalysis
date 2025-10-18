@@ -35,6 +35,9 @@ The data for this project was sourced from Netflix's official weekly Top 10 list
 ## Tools & Technologies
 
 Python: Pandas, Matplotlib, NumPy
+
 Power BI: Interactive dashboards and visuals
+
 Excel: Data preprocessing and verification
+
 GitHub: Version control and project documentation
